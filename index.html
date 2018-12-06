@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
+    <title>Startup</title>
+  </head>
+  <body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent text-info" id="nav1">
+  <a class="navbar-brand" style="color:aquamarine" href="#">Navigation</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" style="color:aquamarine" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="color:aquamarine" href="#">Information</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" style="color:aquamarine" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Resources
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Twitch Information</a>
+          <a class="dropdown-item" href="#">Voice Acting</a>
+          <a class="dropdown-item" href="#">Links</a>
+          <a class="dropdown-item" href="#">Social Media</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Schedule</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" style="color:red" href="#">Work in Progress</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<img class="logo" src="YinYang.png" alt="" width="250" height="250">
+<div class="jumbotron"></div>
+  <div class="jumbo2"><h1 class="display-4">TraviLX Gaming</h1>
+  <p class="lead">Twitch, Voice Acting, Gaming. Dash of philosophy, pinch of empathy. Thank you for stopping by!</p>
+  <hr class="my-4">
+  <p>"Hey!" *TWHACK! "You're not Mercy!"</p>
+</div>
+
+<div class="btn3"><a class="btn2 btn btn btn-dark btn-lg" href="#" role="button">Subscribe</a></div><hr>
+
+<div id="stream"><p>Watch TraviLX's stream below! Or, if he is offline - enjoy the featured streamer that he may be hosting!</p></div>
+<div id="twitch-embed"></div>
+  <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <script type="text/javascript">
+    new Twitch.Embed("twitch-embed", {
+      width: 1600,
+      height: 900,
+      channel: "travilx"
+    });
+   </script>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
