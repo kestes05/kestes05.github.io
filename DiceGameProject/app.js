@@ -30,6 +30,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
             roundScore += dice;
             document.querySelector('#current-' + activePlayer).textContent = roundScore;
         } else {
+            document.getElementById('footer').textContent = 'Player ' + (activePlayer + 1) + ' rolled a 1, and lost their turn!';
             // Next Player
             nextPlayer();
 
@@ -42,6 +43,7 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
     if (gamePlaying) {
         // Add CURRENT score to GLOBAL score
         scores[activePlayer] += roundScore;
+        document.getElementById('footer').textContent = 'Player ' + (activePlayer + 1) + ' held with ' + roundScore + ' points.';
 
         // Update the UI
         document.getElementById('score-' + activePlayer).textContent = scores[activePlayer];
@@ -52,6 +54,7 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
             document.querySelector('.dice').style.display = 'none';
             document.querySelector('.player-' + activePlayer + '-panel').classList.add('winner');
             document.querySelector('.player-' + activePlayer + '-panel').classList.remove('active');
+            document.getElementById('footer').textContent = 'Player ' + (activePlayer + 1) + ' has won the game with ' + scores[activePlayer] + ' points!';
             gamePlaying = false;
         } else {
             // Next Player
