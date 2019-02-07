@@ -11,3 +11,5 @@ Currently uploaded:
 
 -DiceGameProject: My first fully functional JS application. The game itself is currently linked on my landing page, and was created in a code along fashion due to it being my first real forray into the language. It is a virtual version of the "Pig" dice game, complete with functional buttons to roll dice, hold the current score, and start a new game. The game also has a simple status message tracker that indicates what action is being taken. Additional changes will be made in the next week (as of 02.07.2019).
 
+NOTE: On this project, the template and all images were provided by the instructor. This was intended purely to work on Javascript, with no adjustments to HTML or CSS. My "Home Page" folder demonstrates my growing abilities in those areas.
+
