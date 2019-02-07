@@ -9,5 +9,5 @@ Currently uploaded:
 
 -Home Page: This page is a dedicated starter page that will be expanded upon in the future. It was simply created, at first, as a means to showcase my ability to do HTML and CSS changes and creation.
 
--Complete Javascript Course, Dice Game Project 1: My first fully functional JS application. The game itself is currently linked on my landing page, and was created in a code along fashion due to it being my first real forray into the language. It is a virtual version of the "Pig" dice game, complete with functional buttons to roll dice, hold the current score, and start a new game. Additional changes will be made in the next week (as of 02.07.2019).
+-DiceGameProject: My first fully functional JS application. The game itself is currently linked on my landing page, and was created in a code along fashion due to it being my first real forray into the language. It is a virtual version of the "Pig" dice game, complete with functional buttons to roll dice, hold the current score, and start a new game. The game also has a simple status message tracker that indicates what action is being taken. Additional changes will be made in the next week (as of 02.07.2019).
 
